@@ -30,6 +30,7 @@ public class Worker {
                 System.out.println(this.getName() + " income = " + this.getIncome()); break;
             default:
                 System.err.println("Invalid datatype id");
+                System.exit(1);
         }
     }
     ////////// Getters and Setters ///////////
